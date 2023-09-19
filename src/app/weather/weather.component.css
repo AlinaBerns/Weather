@@ -1,0 +1,30 @@
+.container {
+  display: block;
+  border-radius: 10px;
+  margin: auto;
+  width: 400px;
+  height: 300px;
+  color: rgb(253, 252, 252);
+  background-color: rgb(35, 33, 33);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+::-webkit-input-placeholder {
+  color: #393433;
+  font-size: 1em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+button {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #393433;
+  font-style: italic;
+  color: azure;
+}
