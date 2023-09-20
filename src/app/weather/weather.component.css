@@ -2,16 +2,18 @@
   display: block;
   border-radius: 10px;
   margin: auto;
-  width: 400px;
-  height: 300px;
+  width: 1400px;
+  height: 350px;
   color: rgb(253, 252, 252);
   background-color: rgb(35, 33, 33);
+  opacity: 65%;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 h1 {
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 
 ::-webkit-input-placeholder {
@@ -27,4 +29,16 @@ button {
   background-color: #393433;
   font-style: italic;
   color: azure;
+  margin-top: 25px;
+
+  text-align: center;
+}
+form input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+  width: 300px;
+  height: 40px;
 }
