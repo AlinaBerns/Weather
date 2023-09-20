@@ -13,8 +13,8 @@
 
   <div *ngIf="weatherData">
     <h2>{{ weatherData.name }}</h2>
-    <p>Temperature: {{ weatherData.main.temp }}</p>
-    <p>Humidity: {{ weatherData.main.humidity }}</p>
-    <p>Weather: {{ weatherData.weather[0].description }}</p>
+    <div><p>Temperature: {{ weatherData.main.temp }}</p></div>
+    <div><p>Humidity: {{ weatherData.main.humidity }}</p></div>
+    <div><p>Weather: {{ weatherData.weather[0].description }}</p></div>
   </div>
 </div>
